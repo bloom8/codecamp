@@ -12,13 +12,13 @@ var images = ["//i.imgur.com/9H17QFk.png", "//i.imgur.com/9RmpXTy.png", "//i.img
  
 // Only change code below this line.
 
-slotOne=Math.floor(Math.random() * (3 - 1 + 1)) + 1;
-    document.getElementById("slots1").innerHTML='<img src="http:'+images[slotOne]+'" width="80" height="80" />';
+slotOne=Math.floor(Math.random() * (3 - 1 + 1));
+    document.getElementById("slots1").innerHTML='<img src="http:'+images[slotOne]+'" width="62" height="75" />';
   
-slotTwo=Math.floor(Math.random() * (3 - 1 + 1)) + 1;
-    document.getElementById("slots2").innerHTML='<img src="http:'+images[slotTwo]+'" width="80" height="80" />';
-  slotThree=Math.floor(Math.random() * (3 - 1 + 1)) + 1;
-     document.getElementById("slots3").innerHTML='<img src="http:'+images[slotThree]+'" width="80" height="80" />';
+slotTwo=Math.floor(Math.random() * (3 - 1 + 1));
+    document.getElementById("slots2").innerHTML='<img src="http:'+images[slotTwo]+'" width="62" height="75" />';
+  slotThree=Math.floor(Math.random() * (3 - 1 + 1));
+     document.getElementById("slots3").innerHTML='<img src="http:'+images[slotThree]+'" width="62" height="75" />';
   
 // Only change code above this line.
 
@@ -47,13 +47,13 @@ $(document).ready(function() {
  <h2>FCC Slot Machine</h2>
  </div>
  <div class = "slots inset">
- <div id="slot1" class = "slot inset">
+ <div id="slots1" class = "slot inset">
  
  </div>
- <div id="slot2" class = "slot inset">
+ <div id="slots2" class = "slot inset">
  
  </div>
- <div id="slot3" class = "slot inset">
+ <div id="slots3" class = "slot inset">
  
  </div>
  </div>
